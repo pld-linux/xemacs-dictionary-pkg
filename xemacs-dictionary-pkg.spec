@@ -1,5 +1,6 @@
 %define 	srcname	dictionary
 Summary:	Emacs package for talking to a dictionary server
+Summary(pl):	Pakiet emacsa do ³±czenia z serwerem s³owników
 Name:		xemacs-%{srcname}-pkg
 Version:	1.11
 Release:	1
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Emacs package for talking to a dictionary (DICT) server.
+
+%description -l pl
+Pakiet emacsa do ³±czenia z serwerem s³owników (DICT).
 
 %prep
 %setup -q -c
@@ -31,5 +35,4 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/%{srcname}/ChangeLog lisp/%{srcname}/README
-%dir %{_datadir}/xemacs-packages/
 %{_datadir}/xemacs-packages/lisp/*/*.el*
