@@ -1,6 +1,6 @@
 %define 	srcname	dictionary
 Summary:	Emacs package for talking to a dictionary server
-Summary(pl):	Pakiet emacsa do ³±czenia z serwerem s³owników
+Summary(pl.UTF-8):   Pakiet emacsa do Å‚Ä…czenia z serwerem sÅ‚ownikÃ³w
 Name:		xemacs-%{srcname}-pkg
 Version:	1.16
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Emacs package for talking to a dictionary (DICT) server.
 
-%description -l pl
-Pakiet emacsa do ³±czenia z serwerem s³owników (DICT).
+%description -l pl.UTF-8
+Pakiet emacsa do Å‚Ä…czenia z serwerem sÅ‚ownikÃ³w (DICT).
 
 %prep
 %setup -q -c
