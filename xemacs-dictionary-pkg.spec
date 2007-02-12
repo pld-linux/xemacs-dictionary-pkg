@@ -1,6 +1,6 @@
 %define 	srcname	dictionary
 Summary:	Emacs package for talking to a dictionary server
-Summary(pl.UTF-8):   Pakiet emacsa do łączenia z serwerem słowników
+Summary(pl.UTF-8):	Pakiet emacsa do łączenia z serwerem słowników
 Name:		xemacs-%{srcname}-pkg
 Version:	1.16
 Release:	1
