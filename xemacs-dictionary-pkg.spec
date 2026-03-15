@@ -3,12 +3,12 @@ Summary:	Emacs package for talking to a dictionary server
 Summary(pl.UTF-8):	Pakiet emacsa do łączenia z serwerem słowników
 Name:		xemacs-%{srcname}-pkg
 Version:	1.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	83011986c60b22aecb5c1246f66c7744
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
