@@ -1,9 +1,9 @@
-%define 	srcname	dictionary
+%define		srcname	dictionary
 Summary:	Emacs package for talking to a dictionary server
 Summary(pl.UTF-8):	Pakiet emacsa do łączenia z serwerem słowników
 Name:		xemacs-%{srcname}-pkg
 Version:	1.16
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
@@ -36,4 +36,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/%{srcname}/ChangeLog lisp/%{srcname}/README
-%{_datadir}/xemacs-packages/lisp/*/*.el*
+%dir %{_datadir}/xemacs-packages/lisp/dictionary
+%{_datadir}/xemacs-packages/lisp/dictionary/*.el*
